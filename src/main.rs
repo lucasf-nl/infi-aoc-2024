@@ -4,7 +4,7 @@ use std::fs::File;
 use asm::*;
 
 fn main() {
-    let instructions = parse_asm(File::open("./test.asm").unwrap());
+    let instructions = parse_asm(File::open("./instructions.asm").unwrap());
     let mut global_counter = 0;
 
     for (x, y, z) in (0..30).flat_map(|x| {
