@@ -35,4 +35,6 @@ pub fn part2() {
     }
 
     println!("{:?}", groups.len());
+
+    assert_eq!(groups.len(), 11);
 }
