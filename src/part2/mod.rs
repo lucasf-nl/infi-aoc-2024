@@ -2,7 +2,6 @@ use std::collections::{HashSet, VecDeque};
 use crate::cloudmap::Coordinate;
 use crate::part1::part1;
 
-#[test]
 pub fn part2() {
     let cloud_map = part1().0;
     let cloud_particles = cloud_map.iter()
